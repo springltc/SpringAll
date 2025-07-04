@@ -10,7 +10,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+//        SpringApplication.run(DemoApplication.class, args);
 
         // 返回 IOC 容器，使用注解配置，传入配置类
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(WebConfig.class);
